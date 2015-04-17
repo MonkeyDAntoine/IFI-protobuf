@@ -1,0 +1,113 @@
+INFO:root:waiting for connection... listening on port10000
+INFO:root:waiting for connection... listening on port10000
+INFO:root:2015-04-15 20:41:56 - Message from wam ('127.0.0.1', 7186) to everyone : So
+INFO:root:waiting for connection... listening on port10000
+INFO:root:2015-04-15 20:42:11 - Message from wam ('127.0.0.1', 7187) to everyone : Wassup ?
+INFO:root:waiting for connection... listening on port10000
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-15 20:43:16 - Message from wam ('127.0.0.1', 7193) to everyone : Hey !
+INFO:root:2015-04-15 20:49:17 - Message from wam ('127.0.0.1', 7194) to everyone : yo
+INFO:root:2015-04-15 20:49:39 - Message from wam ('127.0.0.1', 7195) to everyone : @Toto hey man
+INFO:root:2015-04-15 20:54:32 - Message from wam ('127.0.0.1', 7204) to t : oto yo !
+INFO:root:2015-04-15 20:55:05 - Message from wam ('127.0.0.1', 7205) to toto :  yo man
+INFO:root:2015-04-15 20:55:43 - Message from wam ('127.0.0.1', 7207) to everyone : no way
+INFO:root:2015-04-15 20:56:05 - Message from wam ('127.0.0.1', 7208) to test : @yes
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-15 21:00:07 - Message from bar ('127.0.0.1', 7211) to everyone : yo
+INFO:root:2015-04-15 21:00:17 - Message from foo ('127.0.0.1', 7212) to everyone : wassup ?
+INFO:root:2015-04-15 21:00:46 - Message from foo ('127.0.0.1', 7214) to Bar : comment va ?
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-15 21:06:54 - Message from bar ('127.0.0.1', 7217) to toto : test
+INFO:root:2015-04-15 21:07:12 - Message from bar ('127.0.0.1', 7218) to everyone : evryone
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:waiting for connection... listening on port : 10000
+ERROR:root:global name 'Tweet' is not defined
+Traceback (most recent call last):
+  File "Z:\Dev\JAVA\IDE\eclipse-jee-luna-SR1\workspace\IFI\protocolbuffers\server\src\main\server.py", line 36, in handler
+    tweet = Tweet();
+NameError: global name 'Tweet' is not defined
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-15 22:52:45 - Message from bar ('127.0.0.1', 7830) to everyone : yo
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-15 23:26:39 - Message from bob ('127.0.0.1', 8247) to everyone : yo
+INFO:root:2015-04-15 23:26:48 - Message from bob ('127.0.0.1', 8248) to Boby : waza
+INFO:root:2015-04-15 23:27:01 - Message from bob ('127.0.0.1', 8249) to everyone : ll
+INFO:root:2015-04-15 23:27:01 - Message from bob ('127.0.0.1', 8250) to everyone : —
+INFO:root:2015-04-15 23:27:02 - Message from bob ('127.0.0.1', 8251) to everyone : —
+INFO:root:2015-04-15 23:27:03 - Message from bob ('127.0.0.1', 8252) to everyone : 
+INFO:root:2015-04-15 23:27:04 - Message from bob ('127.0.0.1', 8253) to everyone : —
+INFO:root:2015-04-15 23:27:07 - Message from bob ('127.0.0.1', 8254) to everyone : :
+INFO:root:2015-04-15 23:27:08 - Message from bob ('127.0.0.1', 8255) to everyone : ;
+INFO:root:2015-04-15 23:27:09 - Message from bob ('127.0.0.1', 8256) to everyone : l
+INFO:root:2015-04-15 23:27:12 - Message from bob ('127.0.0.1', 8257) to everyone : ^^
+INFO:root:2015-04-15 23:27:15 - Message from bob ('127.0.0.1', 8258) to everyone : “
+INFO:root:2015-04-15 23:27:41 - Message from bob ('127.0.0.1', 8259) to everyone : 5454
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:12:40 - Message from bob ('127.0.0.1', 8430) to everyone : yo
+INFO:root:2015-04-17 03:12:56 - Message from bob ('127.0.0.1', 8431) to bibi : t'es l… ?
+INFO:root:2015-04-17 03:13:41 - Message from bob ('127.0.0.1', 8432) to everyone : nope
+INFO:root:2015-04-17 03:13:50 - Message from bob ('127.0.0.1', 8433) to everyone : eeeeeeeeeeeeeeee
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:19:28 - Message from yomama ('127.0.0.1', 8437) to everyone : sup ?
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:33:21 - Message from BOB ('127.0.0.1', 8492) to everyone : test
+ERROR:root:Truncated string.
+Traceback (most recent call last):
+  File "src\main\server.py", line 37, in handler
+    tweet.ParseFromString(data)
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\message.py", line 186, in ParseFromString
+    self.MergeFromString(serialized)
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\internal\python_message.py", line 841, in MergeFromString
+    if self._InternalParse(serialized, 0, length) != length:
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\internal\python_message.py", line 874, in InternalParse
+    pos = field_decoder(buffer, new_pos, end, self, field_dict)
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\internal\decoder.py", line 519, in DecodeField
+    raise _DecodeError('Truncated string.')
+DecodeError: Truncated string.
+ERROR:root:Truncated string.
+Traceback (most recent call last):
+  File "src\main\server.py", line 37, in handler
+    tweet.ParseFromString(data)
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\message.py", line 186, in ParseFromString
+    self.MergeFromString(serialized)
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\internal\python_message.py", line 841, in MergeFromString
+    if self._InternalParse(serialized, 0, length) != length:
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\internal\python_message.py", line 874, in InternalParse
+    pos = field_decoder(buffer, new_pos, end, self, field_dict)
+  File "Z:\Dev\Python27\lib\site-packages\protobuf-2.6.1-py2.7.egg\google\protobuf\internal\decoder.py", line 519, in DecodeField
+    raise _DecodeError('Truncated string.')
+DecodeError: Truncated string.
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:40:22 - Message from BOB ('127.0.0.1', 8663) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:41:16 - Message from BOB ('127.0.0.1', 8664) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:2015-04-17 03:41:26 - Message from BOB ('127.0.0.1', 8665) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:2015-04-17 03:42:23 - Message from BOB ('127.0.0.1', 8666) to everyone : src\main\server.py
+INFO:root:2015-04-17 03:42:44 - Message from BOB ('127.0.0.1', 8667) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:2015-04-17 03:42:46 - Message from BOB ('127.0.0.1', 8668) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:44:08 - Message from BOB ('127.0.0.1', 8669) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:2015-04-17 03:44:11 - Message from BOB ('127.0.0.1', 8670) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:2015-04-17 03:45:13 - Message from BOB ('127.0.0.1', 8719) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:45:43 - Message from BOB ('127.0.0.1', 8720) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:46:47 - Message from BOB ('127.0.0.1', 8721) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:2015-04-17 03:47:06 - Message from BOB ('127.0.0.1', 8722) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:2015-04-17 03:47:54 - Message from BOB ('127.0.0.1', 8723) to everyone : 
+INFO:root:2015-04-17 03:47:57 - Message from BOB ('127.0.0.1', 8724) to everyone : 
+INFO:root:2015-04-17 03:47:58 - Message from BOB ('127.0.0.1', 8725) to everyone : 
+INFO:root:2015-04-17 03:48:02 - Message from BOB ('127.0.0.1', 8726) to everyone : 
+INFO:root:2015-04-17 03:48:06 - Message from BOB ('127.0.0.1', 8727) to everyone : 
+INFO:root:2015-04-17 03:48:06 - Message from BOB ('127.0.0.1', 8728) to everyone : 
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:53:35 - Message from BOB ('127.0.0.1', 8737) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb86
+INFO:root:2015-04-17 03:53:39 - Message from BOB ('127.0.0.1', 8738) to everyone : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:2015-04-17 03:56:42 - Message from BOB ('127.0.0.1', 8740) to toto : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:waiting for connection... listening on port : 10000
+INFO:root:2015-04-17 03:58:12 - Message from BOB ('127.0.0.1', 8741) to everyone : yo
+INFO:root:2015-04-17 03:58:15 - Message from BOB ('127.0.0.1', 8742) to @toto : 6X8mQO7czvCwwx3o165IhGZNs2abRb1pC7RYMHWHyxQcqMLJyIxnAFSoH40pvxzQynEPNBCE89ext5GbP7b05XhXTPvWubPxmHw37k3vqJq5i09wOCCDUKYYPu1Da2xWEBzkqRQsDb861
+INFO:root:waiting for connection... listening on port : 10000

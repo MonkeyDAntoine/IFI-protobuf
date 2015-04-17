@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>ifi.iagl</groupId>
+		<artifactId>protocolbuffers</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>server</artifactId>
+	<packaging>pom</packaging>
+
+	<name>server</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<!-- http://sergei-ivanov.github.io/maven-protoc-plugin/ -->
+				<groupId>com.google.protobuf.tools</groupId>
+				<artifactId>maven-protoc-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<protocExecutable>${proto.bin.path}</protocExecutable>
+					<protoSourceRoot>${proto.sources.path}</protoSourceRoot>
+					<outputDirectory>${project.basedir}/src/gen/</outputDirectory>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile-python</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

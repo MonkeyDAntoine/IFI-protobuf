@@ -1,0 +1,15 @@
+package proto;
+
+option java_package = "proto";
+option java_outer_classname = "AckProto";
+
+message Ack {
+
+  enum Status {
+    OK = 1;
+    NOK = 2;
+  }
+  
+  required Status status = 1;
+  optional string message = 2;
+}

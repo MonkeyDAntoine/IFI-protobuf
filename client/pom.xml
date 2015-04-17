@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>ifi.iagl</groupId>
+		<artifactId>protocolbuffers</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>client</artifactId>
+	<packaging>jar</packaging>
+
+	<name>client</name>
+
+	<build>
+		<plugins>
+			<plugin>
+				<!-- http://sergei-ivanov.github.io/maven-protoc-plugin/ -->
+				<groupId>com.google.protobuf.tools</groupId>
+				<artifactId>maven-protoc-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<protocExecutable>${project.parent.basedir}/protoc.exe</protocExecutable>
+					<protoSourceRoot>${project.parent.basedir}/resources/</protoSourceRoot>
+					<outputDirectory>${project.basedir}/src/main/gen</outputDirectory>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>compile</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.5.3</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>ifi.iagl.client.Client</mainClass>
+						</manifest>
+					</archive>
+					<descriptorRefs>
+						<descriptorRef>jar-with-dependencies</descriptorRef>
+					</descriptorRefs>
+				</configuration>
+				<executions>
+					<execution>
+						<id>make-assembly</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>

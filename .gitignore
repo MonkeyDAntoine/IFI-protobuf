@@ -1,0 +1,13 @@
+*.classpath
+
+*.project
+
+*.pydevproject
+
+*.prefs
+
+*.class
+
+client/target
+
+**/.settings
