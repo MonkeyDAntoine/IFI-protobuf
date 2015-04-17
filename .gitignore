@@ -8,6 +8,4 @@
 
 *.class
 
-client/target
-
 **/.settings
