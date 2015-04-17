@@ -6,10 +6,13 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # proto generated import
+import os
 import imp
-imp.load_source('user_pb2', 'src/gen/user_pb2.py')
-imp.load_source('tweet_pb2', 'src/gen/tweet_pb2.py')
-imp.load_source('ack_pb2', 'src/gen/ack_pb2.py')
+current_dir = os.path.join(os.path.dirname(os.path.realpath(__file__))
+imp.load_source('user_pb2', current_dir , '..', 'gen', 'user_pb2.py'))
+imp.load_source('tweet_pb2', current_dir, '..', 'gen', 'tweet_pb2.py'))
+imp.load_source('ack_pb2', current_dir, '..', 'gen', 'ack_pb2.py'))
+
 from tweet_pb2 import *
 from ack_pb2 import *
 # manage tweet date import
