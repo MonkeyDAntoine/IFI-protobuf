@@ -1,7 +1,7 @@
 # IFI-protobuf
 A client and server implemented in different languages and commucating with <a href="https://developers.google.com/protocol-buffers/">protobuff protocol</a>
 
-##Description
+##Architecture project
 There are 3 folders :
  1. server : the python server
  2. client : the java client
